@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">FactoryisSupport</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="navbar_open">Open</string>
+    <string name="navbar_close">Close</string>
+    <string name="book_a_service">Book a Service</string>
+    <string name="my_profile">My Profile</string>
+    <string name="booking_history">Booking History</string>
+    <string name="settings">Settings</string>
+    <string name="about_factoryisupport">About FactoryiSupport</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="logout">Logout</string>
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="enginner">Enginner</string>
+    <string name="date">Date</string>
+    <string name="more">More</string>
+    <string name="factory">Factory</string>
+    <string name="support">Support</string>
+    <string name="logoimageview">logoimageview</string>
+    <string name="logo_firstname">Factory</string>
+    <string name="logoname_second">Support</string>
+    <string name="choose_the_type_of_service">Choose the type of service</string>
+    <string name="installation">Installation</string>
+    <string name="routine_service">Routine Service</string>
+    <string name="break_down">Break Down</string>
+    <string name="non_technical">Non Technical</string>
+    <string name="rama_subramanian">Rama Subramanian</string>
+    <string name="enter_your_review_here">Enter your review here</string>
+    <string name="comments_on_service_provided">Comments on Service provided :</string>
+    <string name="give_your_rating_to_the_service">Give your Rating to the Service</string>
+    <string name="how_was_the_service">How was the Service ???</string>
+    <string name="ratingreviewtitle"><![CDATA[Ratings & Review]]></string>
+    <string name="send_rating_toolbar">Send</string>
+
+</resources>

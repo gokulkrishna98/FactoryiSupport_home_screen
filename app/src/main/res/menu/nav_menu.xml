@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home_white_36dp"
+        />
+
+    <item
+        android:id="@+id/history"
+        android:title="@string/history"
+        android:icon="@drawable/baseline_assignment_white_36dp"
+        />
+    <item
+        android:id="@+id/Engineer"
+        android:title="@string/enginner"
+        android:icon="@drawable/outline_person_white_36dp"
+        />
+    <item
+        android:id="@+id/Date"
+        android:title="@string/date"
+        android:icon="@drawable/outline_calendar_today_white_36dp"
+        />
+    <item
+        android:id="@+id/More"
+        android:title="@string/more"
+        android:icon="@drawable/outline_more_horiz_white_36dp"
+        />
+</menu>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gokulkrishnam.factoryissupport.Ratingsreview">
+
+    <Toolbar
+        android:id="@+id/toolbar_ratings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:titleTextColor="#fff"
+        android:background="#1a75ff">
+
+    </Toolbar>
+
+    <TextView
+        android:id="@+id/ratingtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_ratings"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="@string/give_your_rating_to_the_service"
+        android:textColor="#111"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ratingimage"
+        android:layout_above="@id/reviewtext"
+        android:layout_centerHorizontal="true"
+        tools:ignore="ContentDescription"
+        android:alpha="0.6"
+        />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ratingtext"
+        android:layout_marginTop="46dp"
+        android:numStars="5"
+        android:stepSize="0.5"
+        android:theme="@style/RatingBar" />
+
+    <TextView
+        android:id="@+id/reviewtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/textarea_ratings"
+        android:textSize="18sp"
+        android:textColor="#111"
+        android:layout_marginStart="15sp"
+        android:text="@string/comments_on_service_provided"/>
+
+    <EditText
+        android:id="@+id/textarea_ratings"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="156dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:autoText="true"
+        android:layout_margin="10sp"
+        android:padding="15sp"
+        android:hint="@string/how_was_the_service"
+        android:background="@drawable/textbox"/>
+
+    <Button
+        android:id="@+id/sendbutton"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_alignEnd="@+id/textarea_ratings"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_near_me_white_24dp"
+        android:gravity="end" />
+
+
+</RelativeLayout>
